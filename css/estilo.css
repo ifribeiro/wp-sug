@@ -1,0 +1,171 @@
+@import url("fonts/fonts.css");
+
+#fb-ig{
+    background-color: #EC9B00;
+}
+
+.nm-rede{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10.15pt;
+    color: white;
+}
+
+#navbar a.nav-link{
+    color: #A5731B;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13.13pt;
+}
+
+#ddd, #reservas, #nr-telefone{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #A5731B;
+}
+
+#reservas{
+    font-size: 11pt;
+    letter-spacing: 13px;
+    text-align: center;
+}
+#ddd{
+    font-size: 21.09pt;
+}
+
+#nr-telefone{
+    font-size: 35.91pt;
+}
+
+.quadrado-interno{
+    width: 309px;
+    background-color: #EC9B00;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 31.52px;
+    color: white;
+}
+
+.divisao-secao { 
+    width:100%; 
+    text-align:center; 
+    border-bottom: 1px solid rgb(23, 66, 122); 
+    line-height:0.1em; 
+    margin:10px 0 20px;
+ 
+}
+
+.img-divisao{
+    width: 200px;
+}
+
+h1 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+h1:before, h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color:#bfb3a1;
+}
+h1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+.texto{
+    font-family: 'Playfair Display', sans-serif;
+    color: #9b9287;
+}
+.texto-grande{
+    font-family: 'Playfair Display', serif;
+    font-size: 56.41px;
+    color: #bfb3a1;
+}
+
+#imagem-central{
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #efece8;
+}
+
+body{
+    background-color: #efece8;
+}
+
+/*Carousel*/
+.carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 28%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;       
+  }
+  
+  .carousel-cell.is-selected {
+    
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  #sobreposta{
+    background-color: white;
+    margin-top: -45px;
+    z-index: 10;
+    margin-bottom: 50px;
+  }
+
+/* MEDIA QUERIES */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 320px) {
+    
+
+}
+
+/* Extra Small Devices, Phones */
+@media (min-width: 360px) and (max-width: 480px) {
+
+    
+
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+    
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    
+   
+}
