@@ -76,13 +76,13 @@
               </a>
             </li>
             <li id="noticias" class="mx-4 nav-item">
-              <a class="nav-link" href="noticias.php">Notícias</a>
+              <a class="nav-link" href=<?php bloginfo('url');?>/noticias>Notícias</a>
             </li>
             <li id="quemsomos" class="mx-4 nav-item">
-              <a class="nav-link" href="quemsomos.php">Quem Somos</a>
+              <a class="nav-link" href="<?php bloginfo('url');?>/quem_somos">Quem Somos</a>
             </li>
             <li id="contato" class="mx-4 nav-item ">
-              <a class="nav-link" href="contato.php">Contato</a>
+              <a class="nav-link" href="<?php bloginfo('url');?>/contato">Contato</a>
           </li>
           </ul>
         </div>
