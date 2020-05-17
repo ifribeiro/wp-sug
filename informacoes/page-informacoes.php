@@ -26,7 +26,7 @@
                 <p class="card-text">Encontrei um gatinho que precisa de ajuda, e agora?</p>
               </div>
               <div class="btn-card">
-                <a href="resgate.php"><button type="button" class="btn card__btn">Saiba mais</button></a>
+                <a href="<?php bloginfo('url');?>/informacoes/resgate"><button type="button" class="btn card__btn">Saiba mais</button></a>
               </div>              
             </div>
           </div>   
@@ -41,7 +41,7 @@
                 <p class="card-text">Quero adotar um gatinho, o que preciso?</p>
               </div>
               <div class="btn-card">
-                <a href="adocao.php"><button type="button" class="btn card__btn">Saiba mais</button></a>
+                <a href="<?php bloginfo('url');?>/informacoes/adocao"><button type="button" class="btn card__btn">Saiba mais</button></a>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@
                 <p class="card-text">Por que você deve castrar seu gatinho?</p>
               </div>
               <div class="btn-card">
-                <a href="castracao.php"><button type="button" class="btn card__btn">Saiba mais</button></a>
+                <a href="<?php bloginfo('url');?>/informacoes/castracao"><button type="button" class="btn card__btn">Saiba mais</button></a>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
                 <p class="card-text">Tenho interesse em ajudar a ONG, o que posso fazer?</p>
               </div>
               <div class="btn-card">
-                <a href="queroajudar.php"><button type="button" class="btn card__btn">Saiba mais</button></a>
+                <a href="<?php bloginfo('url');?>/informacoes/quero_ajudar"><button type="button" class="btn card__btn">Saiba mais</button></a>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@
                       <p class="card-text">Como funciona o Lar Temporário?</p>
                   </div>
                   <div class="btn-card">
-                    <a href="lartemporario.php"><button type="button" class="btn card__btn">Saiba mais</button></a>
+                    <a href="<?php bloginfo('url');?>/informacoes/lar_temporario"><button type="button" class="btn card__btn">Saiba mais</button></a>
                   </div>
               </div>
             </div>
