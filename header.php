@@ -4,16 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Salve Um Gatinho</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="<?php echo bloginfo('template_directory'); ?>/favicon.png">
     <!--<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css"/> -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-theme.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo bloginfo('template_directory');?>/css/bootstrap-theme.css"/>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css"/>    
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo bloginfo('template_directory');?>/css/estilo.css"/>    
     <title><?php if (is_home())
             echo get_bloginfo("title") . ' - ' . get_bloginfo('description');
         if (get_search_query())

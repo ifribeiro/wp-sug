@@ -16,15 +16,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-    <script src="js/popper.js"></script>
+    <script src="<?php echo bloginfo('template_directory');?>/js/popper.js"></script>
     <!--Script pra carregar o css cards.less-->
-    <script src="js/less.js"></script>
+    <script src="<?php echo bloginfo('template_directory');?>/js/less.js"></script>
     <!--Script para mudar o navbar ativo-->
-    <script src="js/navbar.js"></script>
+    <script src="<?php echo bloginfo('template_directory');?>/js/navbar.js"></script>
     <!--<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>-->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script> 
                  
-    <script src="js/script.js"></script>
+    <script src="<?php echo bloginfo('template_directory');?>/js/script.js"></script>
 
 </body>
 </html>
