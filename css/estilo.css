@@ -1,5 +1,13 @@
 @import url("fonts/fonts.css");
 
+body, html{
+    height: 100%;
+}
+
+.container{
+    height: 80%;
+}
+
 #fb-ig{
     background-color: #EC9B00;
 }
@@ -126,6 +134,10 @@ body{
     z-index: 10;
     margin-bottom: 50px;
   }
+
+.link_index:hover{
+    color: #FE355B;
+}
 
 /* MEDIA QUERIES */
 /* Extra Small Devices, Phones */

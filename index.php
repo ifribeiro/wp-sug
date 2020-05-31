@@ -14,7 +14,8 @@
       <img class="card-img-top " src="<?php echo bloginfo('template_directory');?>/img/gato1.png" alt="Card image cap">
       <div class="mt-1">
         <h5 class="text-center m-0">Adote Um Gatinho</h5>
-        <p class="text-center">Veja o os gatinhos para adoção</p>
+        <p class="text-center"><a href="<?php bloginfo('url');?>/gatinhos_adocoes" class="link_index">Veja o os gatinhos para adoção</a>
+        </p>
       </div>
     </div>
     <!-- FIM BOTÃO 1 -->
@@ -24,7 +25,7 @@
       <img class="card-img-top " src="<?php echo bloginfo('template_directory');?>/img/gato2.png" alt="Card image cap">
       <div class="mt-1">
         <h5 class="text-center m-0">Resgate</h5>
-        <p class="text-center">Veja o que fazer quando encontrar um gatinho</p>
+        <p class="text-center"><a href="<?php bloginfo('url');?>/encontrar_gatinho" class="link_index" >Veja o que fazer quando encontrar um gatinho</a></p>
       </div>
     </div>
     <!-- FIM BOTÃO 2 -->
@@ -33,8 +34,9 @@
     <div class="mr-4 d-flex align-items-center mb-2" style="width: 16rem;">
       <img class="card-img-top " src="<?php echo bloginfo('template_directory');?>/img/gato3.png" alt="Card image cap">
       <div class="mt-1">
-        <h5 class="text-center m-0">Ajude-nos</h5>
-        <p class="text-center">Saiba como ajudar nossa ONG</p>
+        <h5 class="text-center m-0">Ajude-nos</h5>  
+        <p class="text-center"><a href="<?php bloginfo('url');?>/ajudar_ong" class="link_index">Saiba como ajudar nossa ONG</a>
+        </p>
       </div>
     </div>
     <!-- FIM BOTÃO 3 -->
