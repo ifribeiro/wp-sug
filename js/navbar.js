@@ -1,7 +1,7 @@
 $(document).ready(function(){
     /**Seleciona navbar que foi clicacado e remove a classe ativa do navbar anteriormente selecionado */
-    setNavAtivo();
-    salvaAtualAtivo();   
+    //setNavAtivo();
+    //salvaAtualAtivo();   
     
     /**
      * Salva o navbar ativo para quando 
@@ -26,7 +26,6 @@ $(document).ready(function(){
         var elementoAtivo = $('.navbar-nav li a[href="'+pathname+'"]').parent();        
         elementoAtivo.addClass('active');
         var idatual = elementoAtivo.attr('id');
-        console.log(idatual);
         if(idatual!=undefined){            
             localStorage.setItem('idativo',idatual);
         }        

@@ -34,7 +34,7 @@
             echo " | ";
             echo get_bloginfo("title") . ' - ' . get_bloginfo('description');
         } ?></title>
-    <?php wp_head(); ?>
+    <!--?php wp_head(); ?-->
 </head>
 <body>
 
